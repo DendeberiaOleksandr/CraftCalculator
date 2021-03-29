@@ -1,0 +1,9 @@
+entity\Item.class
+entity\Craft.class
+gui\Frame$ActionListener.class
+entity\CraftCell.class
+gui\Frame$1.class
+gui\Frame.class
+Main.class
+service\ItemService.class
+gui\ItemsComboBoxRenderer.class

@@ -1,0 +1,4228 @@
+[
+	{
+		"id" : [263, 0],
+		"name": "Уголь",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [265, 0],
+		"name": "Слиток железа",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+
+		"planet": "all",
+    "price": 0
+	},
+
+	{
+		"id" : [266, 0],
+		"name": "Слиток золота",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [693, 1],
+		"name": "Слиток легированной стали",
+		"craft": {
+			"name": "eo",
+			"temperature": 1500,
+			"resources": [
+				{
+					"id": [693, 0],
+					"count": 1
+				},
+				{
+					"id": [1211, 0],
+					"count": 1
+				},
+				{
+					"id": [1008, 0],
+					"count": 1
+				},
+				{
+
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [693, 0],
+		"name": "Слиток стали",
+		"craft": {
+			"name": "p-miner",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [263, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [263, 0],
+					"count": 1
+				},
+				{
+					"id": [327, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [327, 0],
+		"name": "Ведро с лавой",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1211, 0],
+		"name": "Медь",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1008, 0],
+		"name": "Никель",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [158, 1],
+		"name": "Стальная труба",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 6
+				},
+				{
+					"id": [693, 0],
+					"count": 3
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 6
+	},
+
+	{
+		"id" : [158, 2],
+		"name": "Луженая стальная труба",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1210, 0],
+					"count": 6
+				},
+				{
+					"id": [265, 0],
+					"count": 18
+				},
+				{
+					"id": [693, 0],
+					"count": 9
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 20
+	},
+
+	{
+		"id" : [1210, 0],
+		"name": "Олово",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [158, 3],
+		"name": "Никелированная труба",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1008, 0],
+					"count": 6
+				},
+				{
+					"id": [1210, 0],
+					"count": 18
+				},
+				{
+					"id": [265, 0],
+					"count": 54
+				},
+				{
+					"id": [693, 0],
+					"count": 27
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 67
+	},
+
+	{
+		"id" : [212, 0],
+		"name": "Транспортная труба черная",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 24
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [20, 2],
+					"count": 4
+				},
+				{
+					"id": [694, 0],
+					"count": 3
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 30
+	},
+
+	{
+		"id" : [20, 2],
+		"name": "Стекло с обсидиановой рамкой",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null ,
+					"count": 0
+				},
+				{
+					"id": [49, 0],
+					"count": 1
+				},
+				{
+					"id": null ,
+					"count": 0
+				},
+				{
+					"id": [20, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 1
+				},
+				{
+					"id": null ,
+					"count": 0
+				},
+				{
+					"id": [49, 0],
+					"count": 1
+				},
+				{
+					"id": null ,
+					"count": 0
+				}
+			],
+			"result": 4
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [49, 0],
+		"name": "Обсидиан",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [20, 0],
+		"name": "Стекло",
+		"craft": {
+			"name": "oven",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [12, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [694, 0],
+		"name": "Микросхема",
+		"craft": {
+			"name": "p-engineer",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [266, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [684, 0],
+					"count": 1
+				},
+				{
+					"id": [695, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [684, 0],
+		"name": "Пластик",
+		"craft": {
+			"name": "p-medic",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [263, 0],
+					"count": 1
+				},
+				{
+					"id": [263, 0],
+					"count": 1
+				},
+				{
+					"id": [263, 0],
+					"count": 1
+				},
+				{
+					"id": [50, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [50, 0],
+		"name": "Факел",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [263, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": [280, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				}
+			],
+			"result": 4
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [280, 0],
+		"name": "Палка",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 1
+				}
+			],
+			"result": 4
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [5, 0],
+		"name": "Дубовые доски",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [17, 0],
+					"count": 1
+				}
+			],
+			"result": 4
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [17, 0],
+		"name": "Дубовый ствол",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [695, 0],
+		"name": "Кремний",
+		"craft": {
+			"name": "p-miner",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [318, 0],
+					"count": 1
+				},
+				{
+					"id": [12, 0],
+					"count": 2
+				},
+				{
+					"id": [318, 0],
+					"count": 1
+				},
+				{
+					"id": [12, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [12, 0],
+		"name": "Песок",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [318, 0],
+		"name": "Кремень",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [212, 4],
+		"name": "Транспортная труба зелёная",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [351, 2],
+					"count": 8
+				},
+				{
+					"id": [265, 0],
+					"count": 24
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [20, 2],
+					"count": 4
+				},
+				{
+					"id": [694, 0],
+					"count": 3
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 30
+	},
+
+	{
+		"id" : [351, 2],
+		"name": "Кактусовый жмых",
+		"craft": {
+			"name": "oven",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [81, 0],
+					"count": 1
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [81, 0],
+		"name": "Кактус",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [212, 1],
+		"name": "Транспортная труба красная",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [351, 1],
+					"count": 8
+				},
+				{
+					"id": [265, 0],
+					"count": 24
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [20, 2],
+					"count": 4
+				},
+				{
+					"id": [694, 0],
+					"count": 3
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 30
+	},
+
+	{
+		"id" : [351, 1],
+		"name": "Сок лепестков цветков",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [38, 0],
+					"count": 1
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [38, 0],
+		"name": "Роза",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [212, 2],
+		"name": "Транспортная труба закрытая",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 28
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [20, 2],
+					"count": 4
+				},
+				{
+					"id": [694, 0],
+					"count": 3
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 31
+	},
+
+	{
+		"id" : [212, 3],
+		"name": "Транспортная муфта",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [351, 1],
+					"count": 8
+				},
+				{
+					"id": [265, 0],
+					"count": 154
+				},
+				{
+					"id": [693, 0],
+					"count": 75
+				},
+				{
+					"id": [20, 2],
+					"count": 16
+				},
+				{
+					"id": [694, 0],
+					"count": 12
+				},
+				{
+					"id": [1008, 0],
+					"count": 6
+				},
+				{
+					"id": [1210, 0],
+					"count": 18
+				},
+				{
+					"id": [351,2],
+					"count": 8
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 188
+	},
+
+	{
+		"id" : [0, 0],
+		"name": "Корпус модуля",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 6
+				},
+				{
+					"id": [265, 0],
+					"count": 28
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [2030, 2],
+					"count": 8
+				},
+				{
+					"id": [1073, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 36
+	},
+
+	{
+		"id" : [1074, 0],
+		"name": "Электрический провод",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				}
+			],
+			"result": 6
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [147, 0],
+		"name": "Кокос",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [674, 0],
+		"name": "Резина",
+		"craft": {
+			"name": "oven",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [147, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [331, 0],
+		"name": "Пыль красного камня",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2030, 0],
+		"name": "Титановая крошка",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1073, 0],
+		"name": "CPU",
+		"craft": {
+			"name": "p-engineer",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [684, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [684, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 7],
+		"name": "Детектор сигнала",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 24
+				},
+				{
+					"id": [265, 0],
+					"count": 112
+				},
+				{
+					"id": [693, 0],
+					"count": 48
+				},
+				{
+					"id": [2030, 0],
+					"count": 32
+				},
+				{
+					"id": [1073, 0],
+					"count" : 8
+				},
+				{
+					"id": [177, 0],
+					"count" : 4
+				},
+				{
+					"id": [230, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 148
+	},
+
+	{
+		"id" : [177, 0],
+		"name": "Редстоун куб",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [230, 0],
+		"name": "Детектор",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [20, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1, 0],
+		"name": "Камень",
+		"craft": {
+			"name": "oven",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [4, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [4, 0],
+		"name": "Булыжник",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 8],
+		"name": "Генератор сигнала",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 24
+				},
+				{
+					"id": [265, 0],
+					"count": 112
+				},
+				{
+					"id": [693, 0],
+					"count": 48
+				},
+				{
+					"id": [2030, 0],
+					"count": 32
+				},
+				{
+					"id": [1073, 0],
+					"count" : 8
+				},
+				{
+					"id": [177, 0],
+					"count" : 4
+				},
+				{
+					"id": [356, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 146
+	},
+
+	{
+		"id" : [356, 0],
+		"name": "Повторитель",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [76, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count" : 1
+				},
+				{
+					"id": [76, 0],
+					"count" : 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [76, 0],
+		"name": "Красный факел",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [280, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [0, 0],
+		"name": "Беспроводной приёмник",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 6
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 3
+	},
+
+	{
+		"id" : [0, 0],
+		"name": "Корпус беспроводного модуля",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 30
+				},
+				{
+					"id": [265, 0],
+					"count": 112
+				},
+				{
+					"id": [693, 0],
+					"count": 48
+				},
+				{
+					"id": [2030, 0],
+					"count": 32
+				},
+				{
+					"id": [1073, 0],
+					"count" : 8
+				},
+				{
+					"id": [1211, 0],
+					"count" : 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 148
+	},
+
+	{
+		"id" : [2015, 0],
+		"name": "Магнит",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [684, 0],
+					"count": 1
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 9
+	},
+
+	{
+		"id" : [2026, 0],
+		"name": "Узел забора",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [29, 0],
+					"count": 1
+				},
+				{
+					"id": [693, 0],
+					"count": 100
+				},
+				{
+					"id": [1074, 0],
+					"count": 54
+				},
+				{
+					"id": [265, 0],
+					"count": 224
+				},
+				{
+					"id": [2030, 0],
+					"count": 64
+				},
+				{
+					"id": [1073, 0],
+					"count": 16
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [243, 0],
+					"count": 2
+				},
+				{
+					"id": [177, 0],
+					"count": 4
+				},
+				{
+					"id": [356, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 302
+	},
+
+	{
+		"id" : [29, 0],
+		"name": "Липкий поршень",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [341, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [33, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [341, 0],
+		"name": "Слизь",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [33, 0],
+		"name": "Поршень",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [243, 0],
+		"name": "Компрессор",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [693, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 2],
+		"name": "Узел размещения",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [29, 0],
+					"count": 1
+				},
+				{
+					"id": [693, 0],
+					"count": 100
+				},
+				{
+					"id": [1074, 0],
+					"count": 54
+				},
+				{
+					"id": [265, 0],
+					"count": 224
+				},
+				{
+					"id": [2030, 0],
+					"count": 64
+				},
+				{
+					"id": [1073, 0],
+					"count": 16
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [177, 0],
+					"count": 4
+				},
+				{
+					"id": [356, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 301
+	},
+
+	{
+		"id" : [2026, 4],
+		"name": "Маркировочный узел",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1024, 0],
+					"count": 4
+				},
+				{
+					"id": [1074, 0],
+					"count": 30
+				},
+				{
+					"id": [265, 0],
+					"count": 112
+				},
+				{
+					"id": [693, 0],
+					"count": 48
+				},
+				{
+					"id": [2030, 0],
+					"count": 32
+				},
+				{
+					"id": [1073, 0],
+					"count": 8
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 148
+	},
+
+	{
+		"id" : [1024, 0],
+		"name": "Кисть",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [684, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [280, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 1],
+		"name": "Разделяющий узел",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [114, 0],
+					"count": 1
+				},
+				{
+					"id": [266, 0],
+					"count": 3
+				},
+				{
+					"id": [1074, 0],
+					"count": 6
+				},
+				{
+					"id": [265, 0],
+					"count": 28
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [2030, 0],
+					"count": 8
+				},
+				{
+					"id": [1073, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 37
+	},
+
+	{
+		"id" : [114, 0],
+		"name": "Железный люк",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 9],
+		"name": "Балансировщик",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [266, 0],
+					"count": 4
+				},
+				{
+					"id": [114, 0],
+					"count": 4
+				},
+				{
+					"id": [1074, 0],
+					"count": 12
+				},
+				{
+					"id": [265, 0],
+					"count": 56
+				},
+				{
+					"id": [693, 0],
+					"count": 26
+				},
+				{
+					"id": [2030, 0],
+					"count": 16
+				},
+				{
+					"id": [1073, 0],
+					"count": 4
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 73
+	},
+
+	{
+		"id" : [2026, 3],
+		"name": "Узел объединения",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [266, 0],
+					"count": 1
+				},
+				{
+					"id": [114, 0],
+					"count": 3
+				},
+				{
+					"id": [1074, 0],
+					"count": 6
+				},
+				{
+					"id": [265, 0],
+					"count": 28
+				},
+				{
+					"id": [693, 0],
+					"count": 12
+				},
+				{
+					"id": [2030, 0],
+					"count": 8
+				},
+				{
+					"id": [1073, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 36
+	},
+
+	{
+		"id" : [2026, 6],
+		"name": "Засасывающий узел",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 116
+				},
+				{
+					"id": [684, 0],
+					"count": 4
+				},
+				{
+					"id": [1073, 0],
+					"count": 12
+				},
+				{
+					"id": [694, 0],
+					"count": 5
+				},
+				{
+					"id": [693, 0],
+					"count": 56
+				},
+				{
+					"id": [1074, 0],
+					"count": 30
+				},
+				{
+					"id": [2030, 0],
+					"count": 32
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 183
+	},
+
+	{
+		"id" : [159, 3],
+		"name": "Передатчик энергии",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 16
+				},
+				{
+					"id": [158, 0],
+					"count": 3
+				},
+				{
+					"id": [1211, 0],
+					"count": 6
+				},
+				{
+					"id": [694, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [1074, 0],
+					"count": 30
+				},
+				{
+					"id": [2032, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 6
+				},
+				{
+					"id": [44, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 16
+	},
+
+	{
+		"id" : [44, 0],
+		"name": "Каменный полублок",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": [1, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 3
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [158, 0],
+		"name": "Сверхпроводник",
+		"craft": {
+			"name": "p-builder",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [693, 0],
+					"count": 1
+				},
+				{
+					"id": [22, 0],
+					"count": 1
+				},
+				{
+					"id": [693, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [22, 0],
+		"name": "Лазуритовый блок",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				},
+				{
+					"id": [351, 4],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [351, 4],
+		"name": "Ультрамарин",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2032, 0],
+		"name": "Силицид титана",
+		"craft": {
+			"name": "eo",
+			"temperature": 1400,
+			"resources": [
+				{
+					"id": [2030, 0],
+					"count": 4
+				},
+				{
+					"id": [1210, 0],
+					"count": 3
+				},
+				{
+					"id": [695, 0],
+					"count": 2
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 5],
+		"name": "Выбрасывающий узел",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 30
+				},
+				{
+					"id": [265, 0],
+					"count": 112
+				},
+				{
+					"id": [693, 0],
+					"count": 48
+				},
+				{
+					"id": [2032, 0],
+					"count": 32
+				},
+				{
+					"id": [1073, 0],
+					"count": 8
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [23, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 148
+	},
+
+	{
+		"id" : [23, 0],
+		"name": "Раздатчик",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [261, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				},
+				{
+					"id": [331, 0],
+					"count": 1
+				},
+				{
+					"id": [4, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [261, 0],
+		"name": "Лук",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [280, 0],
+					"count": 1
+				},
+				{
+					"id": [287, 0],
+					"count": 1
+				},
+				{
+					"id": [280, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [287, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [280, 0],
+					"count": 1
+				},
+				{
+					"id": [287, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [287, 0],
+		"name": "Нить",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [0, 0],
+		"name": "Проектировочный стол",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1000, 0],
+					"count": 1
+				},
+				{
+					"id": [782, 0],
+					"count": 1
+				},
+				{
+					"id": [58, 0],
+					"count": 1
+				},
+				{
+					"id": [1026, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [2032, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 6
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 10
+	},
+
+	{
+		"id" : [1000, 0],
+		"name": "Ниобий",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1026, 0],
+		"name": "Блокнот",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [339, 0],
+					"count": 1
+				},
+				{
+					"id": [339, 0],
+					"count": 1
+				},
+				{
+					"id": [1024, 0],
+					"count": 1
+				},
+				{
+					"id": [339, 0],
+					"count": 1
+				},
+				{
+					"id": [339, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [339, 0],
+					"count": 1
+				},
+				{
+					"id": [339, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [339, 0],
+		"name": "Бумага",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [338, 0],
+					"count": 1
+				},
+				{
+					"id": [338, 0],
+					"count": 1
+				},
+				{
+					"id": [338, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 3
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [338, 0],
+		"name": "Тростник",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [58, 0],
+		"name": "Верстак",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": [5, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [782, 0],
+		"name": "Шаблон треугольника",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2028, 6],
+		"name": "База",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [2032, 0],
+					"count": 8
+				},
+				{
+					"id": [265, 0],
+					"count": 4
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 3
+	},
+
+	{
+		"id" : [2028, 5],
+		"name": "Двигатель",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1208, 0],
+					"count": 6
+				},
+				{
+					"id": [331, 0],
+					"count": 3
+				},
+				{
+					"id": [679, 0],
+					"count": 6
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				},
+				{
+					"id": [33, 0],
+					"count": 4
+				},
+				{
+					"id": [2030, 0],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 10
+	},
+
+	{
+		"id" : [679, 0],
+		"name": "Шестерня",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1208, 0],
+		"name": "Бронза",
+		"craft": {
+			"name": "eo",
+			"temperature": 1140,
+			"resources": [
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1211, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2028, 4],
+		"name": "Материнская плата",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [694, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [2032, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 6
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 7
+	},
+
+	{
+		"id" : [2028, 3],
+		"name": "Манипулятор",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [679, 0],
+					"count": 7
+				},
+				{
+					"id": [2031, 0],
+					"count": 6
+				},
+				{
+					"id": [2032, 0],
+					"count": 4
+				},
+				{
+					"id": [1208, 0],
+					"count": 6
+				},
+				{
+					"id": [331, 0],
+					"count": 3
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				},
+				{
+					"id": [33, 0],
+					"count": 4
+				},
+				{
+					"id": [2030, 0],
+					"count": 2
+				},
+				{
+					"id": [1207, 3],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 26
+	},
+
+	{
+		"id" : [1207, 3],
+		"name": "Вольфрам",
+		"craft": {
+			"name": "eo",
+			"temperature": 3400,
+			"resources": [
+				{
+					"id": [1212, 0],
+					"count": 3
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [1212, 0],
+		"name": "Вольфрамовая крошка",
+		"craft": {
+			"name": "eo",
+			"temperature": 3220,
+			"resources": [
+				{
+					"id": [15, 2],
+					"count": 1
+				}
+			],
+			"result": 2
+		},
+		"planet": "Pirate Station",
+		"price": 0
+	},
+
+	{
+		"id" : [1212, 0],
+		"name": "Вольфрамовая крошка",
+		"craft": {
+			"name": "eo",
+			"temperature": 3220,
+			"resources": [
+				{
+					"id": [15, 2],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [15, 2],
+		"name": "Оловянная руда",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "Pirate Station",
+		"price": 0
+	},
+
+	{
+		"id" : [2031, 0],
+		"name": "Нитинол",
+		"craft": {
+			"name": "eo",
+			"temperature": 1300,
+			"resources": [
+				{
+					"id": [2030, 0],
+					"count": 4
+				},
+				{
+					"id": [1008, 0],
+					"count": 3
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [159, 4],
+		"name": "Контейнер для сырья ур.1",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [20, 2],
+					"count": 3
+				},
+				{
+					"id": [2030, 0],
+					"count": 18
+				},
+				{
+					"id": [265, 0],
+					"count": 8
+				},
+				{
+					"id": [1208, 0],
+					"count": 6
+				},
+				{
+					"id": [331, 0],
+					"count": 3
+				},
+				{
+					"id": [679, 0],
+					"count": 6
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				},
+				{
+					"id": [33, 0],
+					"count": 4
+				},
+				{
+					"id": [1000, 0],
+					"count": 4
+				},
+				{
+					"id": [380, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 22
+	},
+
+	{
+		"id" : [380, 0],
+		"name": "Котёл",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [159, 6],
+		"name": "Контейнер для сырья ур.2",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1210, 0],
+					"count": 3
+				},
+				{
+					"id": [679, 0],
+					"count": 8
+				},
+				{
+					"id": [20, 2],
+					"count": 3
+				},
+				{
+					"id": [2030, 0],
+					"count": 18
+				},
+				{
+					"id": [265, 0],
+					"count": 8
+				},
+				{
+					"id": [1208, 0],
+					"count": 6
+				},
+				{
+					"id": [331, 0],
+					"count": 3
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				},
+				{
+					"id": [33, 0],
+					"count": 4
+				},
+				{
+					"id": [1008, 0],
+					"count": 4
+				},
+				{
+					"id": [380, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [2032, 0],
+					"count": 1
+				},
+				{
+					"id": [20, 0],
+					"count": 6
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 31
+	},
+
+	{
+		"id" : [159, 8],
+		"name": "Контейнер для сырья ур.3",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [693, 0],
+					"count": 3
+				},
+				{
+					"id": [1210, 0],
+					"count": 3
+				},
+				{
+					"id": [679, 0],
+					"count": 8
+				},
+				{
+					"id": [20, 2],
+					"count": 3
+				},
+				{
+					"id": [2030, 0],
+					"count": 18
+				},
+				{
+					"id": [265, 0],
+					"count": 8
+				},
+				{
+					"id": [1208, 0],
+					"count": 6
+				},
+				{
+					"id": [331, 0],
+					"count": 3
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				},
+				{
+					"id": [33, 0],
+					"count": 4
+				},
+				{
+					"id": [1008, 0],
+					"count": 4
+				},
+				{
+					"id": [380, 0],
+					"count": 1
+				},
+				{
+					"id": [694, 0],
+					"count": 4
+				},
+				{
+					"id": [1073, 0],
+					"count": 2
+				},
+				{
+					"id": [1211, 0],
+					"count": 4
+				},
+				{
+					"id": [2032, 0],
+					"count": 2
+				},
+				{
+					"id": [20, 0],
+					"count": 12
+				},
+				{
+					"id": [42, 4],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 48
+	},
+
+	{
+		"id" : [42, 4],
+		"name": "Опасная зона",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [351, 11],
+					"count": 1
+				},
+				{
+					"id": [351, 0],
+					"count": 1
+				},
+				{
+					"id": [351, 11],
+					"count": 1
+				},
+				{
+					"id": [351, 0],
+					"count": 1
+				},
+				{
+					"id": [42, 0],
+					"count": 1
+				},
+				{
+					"id": [351, 0],
+					"count": 1
+				},
+				{
+					"id": [351, 11],
+					"count": 1
+				},
+				{
+					"id": [351, 0],
+					"count": 1
+				},
+				{
+					"id": [351, 11],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [42, 0],
+		"name": "Железный блок",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+
+	{
+		"id" : [351, 11],
+		"name": "Сок одуванчика",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [37, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [351, 0],
+		"name": "Чернильный мешочек",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [37, 0],
+		"name": "Одуванчик",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [159, 5],
+		"name": "Фабрика ур.1",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [679, 0],
+					"count": 13
+				},
+				{
+					"id": [2031, 0],
+					"count": 6
+				},
+				{
+					"id": [2032, 0],
+					"count": 5
+				},
+				{
+					"id": [1208, 0],
+					"count": 12
+				},
+				{
+					"id": [331, 0],
+					"count": 6
+				},
+				{
+					"id": [693, 0],
+					"count": 4
+				},
+				{
+					"id": [33, 0],
+					"count": 8
+				},
+				{
+					"id": [2030, 0],
+					"count": 20
+				},
+				{
+					"id": [1207, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 3
+				},
+				{
+					"id": [693, 0],
+					"count": 20
+				},
+				{
+					"id": [265, 0],
+					"count": 6
+				},
+				{
+					"id": [20, 2],
+					"count": 3
+				},
+				{
+					"id": [1008, 0],
+					"count": 4
+				},
+				{
+					"id": [380, 0],
+					"count": 1
+				},
+				{
+					"id": [169, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [20, 0],
+					"count": 6
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 77
+	},
+
+	{
+		"id" : [169, 0],
+		"name": "Свинцовая плита",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				},
+				{
+					"id": [729, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [729, 0],
+		"name": "Свинец",
+		"craft": {
+			"name": "",
+			"temperature": 0,
+			"resources": [
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price":0
+	},
+
+	{
+		"id" : [159, 7],
+		"name": "Фабрика ур.2",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [679, 0],
+					"count": 20
+				},
+				{
+					"id": [2031, 0],
+					"count": 12
+				},
+				{
+					"id": [2032, 0],
+					"count": 10
+				},
+				{
+					"id": [1208, 0],
+					"count": 18
+				},
+				{
+					"id": [331, 0],
+					"count": 9
+				},
+				{
+					"id": [693, 0],
+					"count": 6
+				},
+				{
+					"id": [33, 0],
+					"count": 12
+				},
+				{
+					"id": [2030, 0],
+					"count": 22
+				},
+				{
+					"id": [1207, 0],
+					"count": 4
+				},
+				{
+					"id": [694, 0],
+					"count": 6
+				},
+				{
+					"id": [1210, 0],
+					"count": 12
+				},
+				{
+					"id": [693, 0],
+					"count": 56
+				},
+				{
+					"id": [265, 0],
+					"count": 24
+				},
+				{
+					"id": [20, 2],
+					"count": 3
+				},
+				{
+					"id": [1008, 0],
+					"count": 4
+				},
+				{
+					"id": [380, 0],
+					"count": 1
+				},
+				{
+					"id": [169, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 2
+				},
+				{
+					"id": [1211, 0],
+					"count": 4
+				},
+				{
+					"id": [20, 0],
+					"count": 12
+				},
+				{
+					"id": [42, 3],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 77
+	},
+
+	{
+		"id" : [42, 3],
+		"name": "Оловянный блок",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				},
+				{
+					"id": [1210, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [159, 9],
+		"name": "Фабрика ур.3",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [679, 0],
+					"count": 27
+				},
+				{
+					"id": [2031, 0],
+					"count": 18
+				},
+				{
+					"id": [2032, 0],
+					"count": 15
+				},
+				{
+					"id": [1208, 0],
+					"count": 24
+				},
+				{
+					"id": [331, 0],
+					"count": 12
+				},
+				{
+					"id": [693, 0],
+					"count": 8
+				},
+				{
+					"id": [33, 0],
+					"count": 16
+				},
+				{
+					"id": [2030, 0],
+					"count": 24
+				},
+				{
+					"id": [1207, 0],
+					"count": 6
+				},
+				{
+					"id": [694, 0],
+					"count": 9
+				},
+				{
+					"id": [1008, 0],
+					"count": 16
+				},
+				{
+					"id": [1210, 0],
+					"count": 48
+				},
+				{
+					"id": [693, 0],
+					"count": 164
+				},
+				{
+					"id": [265, 0],
+					"count": 78
+				},
+				{
+					"id": [20, 2],
+					"count": 3
+				},
+				{
+					"id": [380, 0],
+					"count": 1
+				},
+				{
+					"id": [169, 0],
+					"count": 2
+				},
+				{
+					"id": [1073, 0],
+					"count": 3
+				},
+				{
+					"id": [1211, 0],
+					"count": 6
+				},
+				{
+					"id": [20, 0],
+					"count": 18
+				},
+				{
+					"id": [42, 3],
+					"count": 2
+				},
+				{
+					"id": [178, 1],
+					"count": 2
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 360
+	},
+
+	{
+		"id" : [178, 1],
+		"name": "Отшлифованный блок стали",
+		"craft": {
+			"name": "p-builder",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [178, 0],
+					"count": 1
+				},
+				{
+					"id": [675, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [675, 0],
+		"name": "Долото",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 256
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [159, 12],
+		"name": "Бетономешалка",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [693, 0],
+					"count": 14
+				},
+				{
+					"id": [1074, 0],
+					"count": 6
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 24
+				},
+				{
+					"id": [1208, 0],
+					"count": 6
+				},
+				{
+					"id": [331, 0],
+					"count": 3
+				},
+				{
+					"id": [679, 0],
+					"count": 6
+				},
+				{
+					"id": [693, 0],
+					"count": 2
+				},
+				{
+					"id": [33, 0],
+					"count": 4
+				},
+				{
+					"id": [2030, 0],
+					"count": 2
+				},
+				{
+					"id": [171, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 42
+	},
+
+	{
+		"id" : [171, 0],
+		"name": "Насос",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [172, 0],
+					"count": 1
+				},
+				{
+					"id": [679, 0],
+					"count": 1
+				},
+				{
+					"id": [172, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [1074, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [172, 0],
+		"name": "Труба",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": [265, 0],
+					"count": 1
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				},
+				{
+					"id": [674, 0],
+					"count": 1
+				},
+				{
+					"id": null,
+					"count": 0
+				}
+			],
+			"result": 2
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [2026, 10],
+		"name": "Платформа разгрузки",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [265, 0],
+					"count": 232
+				},
+				{
+					"id": [684, 0],
+					"count": 8
+				},
+				{
+					"id": [1073, 0],
+					"count": 26
+				},
+				{
+					"id": [694, 0],
+					"count": 10
+				},
+				{
+					"id": [693, 0],
+					"count": 112
+				},
+				{
+					"id": [1074, 0],
+					"count": 60
+				},
+				{
+					"id": [2030, 0],
+					"count": 64
+				},
+				{
+					"id": [1211, 0],
+					"count": 4
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 374
+	},
+
+	{
+		"id" : [0, 0],
+		"name": "Андроид",
+		"craft": {
+			"name": "factory",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [1074, 0],
+					"count": 30
+				},
+				{
+					"id": [265, 0],
+					"count": 112
+				},
+				{
+					"id": [693, 0],
+					"count": 48
+				},
+				{
+					"id": [2030, 0],
+					"count": 32
+				},
+				{
+					"id": [1073, 0],
+					"count": 12
+				},
+				{
+					"id": [1211, 0],
+					"count": 2
+				},
+				{
+					"id": [694, 0],
+					"count": 1
+				},
+				{
+					"id": [23, 0],
+					"count": 1
+				},
+				{
+					"id": [1070, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 177
+	},
+
+	{
+		"id" : [1070, 0],
+		"name": "Андроид",
+		"craft": {
+			"name": "p-engineer",
+			"temperature": 0,
+			"resources": [
+				{
+					"id": [679, 0],
+					"count": 4
+				},
+				{
+					"id": [693, 0],
+					"count": 6
+				},
+				{
+					"id": [1073, 0],
+					"count": 1
+				},
+				{
+					"id": [676, 0],
+					"count": 1
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 0
+	},
+
+	{
+		"id" : [676, 0],
+		"name": "Гаечный ключ",
+		"craft": {
+			"name": "workbench",
+			"temperature": 0,
+			"resources": [
+				{
+					"id":null,
+					"count": 0
+				},
+				{
+					"id":[265, 0],
+					"count": 1
+				},
+				{
+					"id":null,
+					"count": 0
+				},
+				{
+					"id":null,
+					"count": 0
+				},
+				{
+					"id":[265, 0],
+					"count": 1
+				},
+				{
+					"id":[265, 0],
+					"count": 1
+				},
+				{
+					"id":[265, 0],
+					"count": 1
+				},
+				{
+					"id":null,
+					"count": 0
+				},
+				{
+					"id":null,
+					"count": 0
+				}
+			],
+			"result": 1
+		},
+		"planet": "all",
+		"price": 1
+	}
+]
